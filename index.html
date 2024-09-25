@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>セレニティ ウェルネス スパ</title>
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/custom.css">
+  <script src="/assets/js/script.js" async></script>
+  <script src="/assets/js/arraylist.js" async></script>
+</head>
+
+<body onscroll="scrollFunc()">
+  <window onload="doSomething()">
+
+    <div class="overflow-hidden">
+
+      <!-- ナビゲーションバーの開始 -->
+      <header>
+        <nav id="navB" class="navbar navbar-expand-lg fixed-top">
+
+          <div class="container-fluid">
+
+            <button class="navbar-toggler bg-secondary mx-2" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navmenu">
+              <span class="navbar-toggler-icon btn-secondary"></span>
+            </button>
+
+            <div class="collapse navbar-collapse my-2" id="navmenu">
+              <ul class="row navbar-nav ms-auto gx-5">
+                <li class="col nav-item px-2 my-2">
+                  <button type="button" class="btn btn-outline-secondary btn-sm"><a href="index.html"
+                      class="nav-link text-light fw-bold text-uppercase">ホーム</a></button>
+                </li>
+
+                <li class="col nav-item px-2 my-2">
+                  <button type="button" class="btn btn-outline-secondary btn-sm"><a href="index.html"
+                      class="nav-link text-light fw-bold text-uppercase">サービス</a></button>
+                </li>
+
+                <li class="col nav-item px-2 my-2">
+                  <button type="button" class="btn btn-outline-secondary btn-sm"><a href="index.html"
+                      class="nav-link text-light fw-bold text-uppercase">紹介</a></button>
+                </li>
+
+                <li class="col nav-item px-2 my-2">
+                  <button type="button" class="btn btn-outline-secondary btn-sm me-5"><a href="index.html"
+                      class="nav-link text-light fw-bold text-uppercase">お問い合わせ</a></button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!-- ナビゲーションバーの終了 -->
+
+      <main>
+
+        <!-- ヒーローセクションの開始 -->
+        <section
+          class="masthead mast1img text-light d-flex p-5 text-center text-sm-start align-items-center vw-100 vh-85">
+          <div class="container">
+            <div class="row d-sm-flex align-items-center justify-content-between">
+              <div class="col text-start">
+                <h1 class="fw-bold display-3 text-light">ようこそ <span class="text-secondary">セレニティ ウェルネス スパ</span>へ</h1>
+                <p class="fw-bold text-secondary fs-2">
+                  究極のリラクゼーションと若返りの体験を発見してください。
+                </p>
+                <button id="bookwith" type="button" class="btn btn-primary btn-lg border-secondary me-5"><a
+                    href="https://jane.app/"
+                    class="nav-link text-light fw-bold text-uppercase"><span>予約する</span></a></button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ヒーローセクションの終了 -->
+
+        <!-- サービスセクション -->
+        <section class="container col my-5 py-5 d-flex align-items-center">
+          <div class="col container px-4">
+            <div class="row d-flex justify-content-center">
+              <h1 class="row d-flex justify-content-center secondary text-secondary mb-5">シグネチャーサービス</h1>
+              <h2 class="row d-flex justify-content-center mb-5 text-center vw-50">厳選されたスパトリートメントで健康を高めましょう。</h2>
+            </div>
+
+            <div class="container">
+              <div class="row g-4">
+                <div class="col-md">
+                  <div class="card text-dark shadow-lg border-0">
+                    <img class="card-img-top p-2" src="assets/images/card1.jpg" alt="脚のマッサージ">
+                    <div class="card-body">
+                      <h1 class="card-title mb-3 text-secondary">リラクゼーションマッサージ</h1>
+                      <p class="card-text fs-5">ストレスや緊張を溶かし、リフレッシュして心が落ち着くリラクゼーションマッサージをお楽しみください。</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md">
+                  <div class="card text-dark shadow-lg border-0">
+                    <img class="card-img-top p-2" src="assets/images/card2.jpg" alt="背中のマッサージ">
+                    <div class="card-body">
+                      <h1 class="card-title mb-3 text-secondary">ディープティッシュマッサージ</h1>
+                      <p class="card-text fs-5">頑固な筋肉の結び目や慢性的な痛みをターゲットにし、深い圧力で筋肉のこりを解消します。</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md">
+                  <div class="card text-dark shadow-lg border-0">
+                    <img class="card-img-top p-2" src="assets/images/card3.jpg" alt="腕のマッサージ">
+                    <div class="card-body">
+                      <h1 class="card-title mb-3 text-secondary">筋膜リリース</h1>
+                      <p class="card-text fs-5">柔軟性を高め、痛みを軽減するために、筋膜を優しく解放するセラピーです。</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- サービスセクションの終了 -->
+
+        <!-- 紹介セクション -->
+        <section class="d-flex mt-3 bg-primary vw-100 vh-40">
+          <div class="row bg-primary vw-100">
+            <p class="d-flex justify-content-center align-items-center mb-0 text-secondary display-4">私たちを知る</p>
+          </div>
+        </section>
+
+        <!-- チームセクション -->
+        <section class="container d-flex mt-3 p-5 justify-content-center">
+          <div class="container row d-flex align-content-center">
+            <p class="mb-0 text-dark text-uppercase fw-bold h2">ジェン・スミス</p>
+            <p class="mb-0 text-secondary h1 mt-3 mb-3">リードマッサージセラピスト</p>
+            <p class="fs-5 mb-0">ジェンは10年以上の経験を持つ認定マッサージセラピストで、各クライアントのニーズに合わせたパーソナライズされたトリートメントを提供しています。</p>
+          </div>
+        </section>
+
+        <!-- その他のサービスセクション -->
+        <section class="container-md d-flex mt-3 p-5 justify-content-center">
+          <div class="m-0 row d-flex align-content-center">
+            <h1>包括的ケア</h1>
+            <p class="fs-5 mb-3">私たちは、心身の健康に対応するさまざまなセラピーを提供しています。</p>
+          </div>
+
+          <div class="m-0 row d-flex align-content-center">
+            <h1>柔軟なスケジュール</h1>
+            <p class="fs-5 mb-3">忙しい日常に合わせた柔軟な予約オプションをご用意しています。</p>
+          </div>
+        </section>
+
+        <!-- 保険カバレッジセクション -->
+        <section class="container-md d-flex p-5 justify-content-center">
+          <div class="m-0 row d-flex align-content-center">
+            <h1>保険適用範囲</h1>
+            <p class="fs-5 mb-3">多くのサービスが保険でカバーされています。あなたのプランが当社の治療をカバーしているか確認してください。</p>
+          </div>
+
+          <div class="m-0 row d-flex align-content-center">
+            <h1>ホリスティックアプローチ</h1>
+            <p class="fs-5 mb-3">さまざまなホリスティックセラピーを取り入れ、総合的なアプローチを提供します。</p>
+          </div>
+        </section>
+
+        <!-- 期待することセクション -->
+        <section class="bg-primary mt-3 pb-5">
+          <div class="container col">
+            <div class="row">
+              <h1 class="mt-5 d-flex justify-content-center text-light display-2">私たちのスパで期待できること</h1>
+            </div>
+            <div class="container col mt-5">
+              <div class="row">
+                <p class="text-secondary fs-4 mb-4">
+                  到着すると、心地よい雰囲気に包まれ、リラックスしていただけます。私たちのチームが、あなたのニーズに合わせたトリートメントプランをガイドし、満足と快適さを保証します。</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="bg-secondary vh-5"></div>
+      </main>
+
+      <!-- フッター -->
+      <footer class="text-center bg-primary text-lg-start text-white">
+        <section class="pt-5">
+          <div class="container text-center text-md-start">
+            <div class="row d-flex align-items-center">
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto">
+                <iframe class="overflow-hidden" src="https://www.google.com/maps/embed?..."></iframe>
+              </div>
+
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0">
+                <h6 class="text-uppercase text-light fs-5 fw-bold">お問い合わせ情報</h6>
+                <hr class="mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <p class="text-secondary fw-bold fs-5">住所: 1999 New Street Town, BC</p>
+                <p class="text-secondary fw-bold fs-5">メール: info@serenitywellness.com</p>
+                <p class="text-secondary fw-bold fs-5">電話: +01 234 567 88</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="bg-primary text-center p-3">
+          © 2022 Copyright: セレニティ ウェルネス スパ
+        </div>
+      </footer>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
